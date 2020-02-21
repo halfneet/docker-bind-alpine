@@ -1,0 +1,14 @@
+$TTL 1h
+@ IN SOA fxxk.com fxxk.com.local. (
+    2020030501 ; serial
+    1h         ; refresh
+    15m        ; retry
+    1d         ; expire
+    1h         ; minimum
+);
+ 
+@          IN NS fxxk.com.
+ns         IN A  192.168.0.249
+fxxk.com.   IN A  192.168.0.250
+www.fxxk.com. IN A  192.168.0.251
+
